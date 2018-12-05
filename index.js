@@ -9,4 +9,5 @@ app.get('/', (req, res) => {
 
 app.listen(4000, () => {
     console.log('app-a running at http://localhost:4000');
+    console.log('node.js version used', process.versions.node);
 });
